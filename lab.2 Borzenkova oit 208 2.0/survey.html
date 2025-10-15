@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="styles.css">
+  <title>Туризм — Опитування</title>
+</head>
+<body>
+
+<h1>Туризм</h1>
+
+<p>
+  <a href="index.html">Картки</a> |
+  <a href="news.html">Новини</a> |
+  <a href="feedback.html">Зворотній зв'язок</a> |
+  <a href="survey.html">Опитування</a> |
+  <a href="login.html">Вхід</a> |
+  <a href="register.html">Реєстрація</a>
+</p>
+
+<h2>Опитування</h2>
+<form>
+  <input type="text" placeholder="Логін" required><br>
+  <input type="email" placeholder="Ел. пошта" required><br>
+  
+  <label>Тип подорожі:
+    <select>
+      <option value="weekend">Вікенд</option>
+      <option value="beach">Море</option>
+      <option value="mountain">Гори</option>
+    </select>
+  </label><br>
+  
+  <p>Бюджет:</p>
+  <input type="radio" name="budget" value="low" required> До 300$<br>
+  <input type="radio" name="budget" value="mid"> 300-800$<br>
+  <input type="radio" name="budget" value="high"> Більше 800$<br>
+  
+  <p>Важливе:</p>
+  <input type="checkbox" name="comfort"> Комфорт<br>
+  <input type="checkbox" name="price"> Ціна<br>
+  <input type="checkbox" name="nature"> Природа<br>
+  
+  <textarea placeholder="Ваші коментарі"></textarea><br>
+  <button type="reset">Очистити</button>
+  <button type="submit">Відправити</button>
+</form>
+
+</body>
+</html>
